@@ -1,7 +1,7 @@
 var React = require('react');
 var createReactClass = require('create-react-class');
-
-var $ = React.DOM;
+var ReactDOM = require('react-dom');
+var $ = ReactDOM;
 
 // Some shared attrs for JsonTable and JsonRow
 var defaultSettings = {
