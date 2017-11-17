@@ -1,4 +1,5 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
 var $ = React.DOM;
 
@@ -18,7 +19,7 @@ var defaultSettings = {
 	}
 ;
 
-var JsonTable = React.createClass({
+var JsonTable = createReactClass({
 	getSetting: getSetting,
 
 	render: function(){
@@ -170,7 +171,7 @@ var JsonTable = React.createClass({
 	}
 });
 
-var Row = React.createClass({
+var Row = createReactClass({
 	getSetting: getSetting,
 
 	render: function() {
