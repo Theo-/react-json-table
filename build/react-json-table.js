@@ -1,5 +1,5 @@
 /*
-react-json-table v0.1.1
+react-json-table v0.1.2
 https://github.com/arqex/react-json-table
 MIT: https://github.com/arqex/react-json-table/raw/master/LICENSE
 */
